@@ -1,128 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Douglas Pinheiro Rodrigues – Portfólio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="Portfólio de Douglas Pinheiro Rodrigues: suporte técnico, infraestrutura de redes e desenvolvimento web.">
+  <title>Douglas Pinheiro Rodrigues | Portfólio</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-
-  <!-- Navegação / header -->
-  <nav id="navbar">
-    <ul>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <nav class="navbar" aria-label="Navegação principal">
+    <a class="brand" href="#inicio" aria-label="Douglas Pinheiro Rodrigues, início">DP<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="menu" class="nav-links">
       <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#experiencia">Experiência</a></li>
       <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#experiencias">Experiências</a></li>
       <li><a href="#projetos">Projetos</a></li>
-      <li><a href="#contato">Contato</a></li>
+      <li><a class="nav-contact" href="#contato">Contato</a></li>
     </ul>
   </nav>
 
-  <!-- Seção Sobre -->
-<header id="sobre">
-  <div class="sobre-container">
-    <img src="perfil.jpg" alt="Foto de Douglas" class="foto-perfil">
-    <div class="sobre-texto">
-      <h1>Douglas Pinheiro Rodrigues</h1>
-      <p>Estudante de Sistemas de Informação | Desenvolvedor Web e Suporte Técnico</p>
-    </div>
-  </div>
-</header>
+  <main id="conteudo">
+    <header class="hero" id="inicio">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Presidente Prudente, SP · Brasil</p>
+        <div class="intro">
+          <img class="profile-photo" src="perfil.jpg" alt="Foto de Douglas Pinheiro Rodrigues" width="148" height="148">
+          <div>
+            <p class="overline">Olá, eu sou</p>
+            <h1>Douglas Pinheiro<br><span>Rodrigues.</span></h1>
+          </div>
+        </div>
+        <p class="hero-summary">Suporte técnico <span>·</span> Infraestrutura de redes <span>·</span> Desenvolvimento web</p>
+        <p class="hero-copy">Estudante de Sistemas de Informação com experiência prática em suporte, telecomunicações e soluções web. Gosto de investigar problemas, ajudar pessoas e transformar necessidades em soluções claras.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projetos">Conheça meu trabalho <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="assets/curriculo-douglas-pinheiro-rodrigues.pdf" target="_blank" rel="noopener">Ver currículo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="social-links" aria-label="Perfis profissionais">
+          <a href="https://github.com/DougX13" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/douglas-pinheiro-rodrigues-8203b1261/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="mailto:douglaspinheirorodrigues3@gmail.com">E-mail <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Role para conhecer mais">↓</a>
+    </header>
 
-<section id="qualificacoes">
-  <h2>Qualificações</h2>
-  <ul>
-    <li>Sólida formação técnica: Ensino Médio integrado ao Técnico de Informática para Web (Etec Professora Nair Luccas Ribeiro – 2023) e graduação em andamento em Sistemas de Informação (Toledo Prudente – 5º semestre, conclusão prevista para 2027).</li>
+    <section class="section about" id="sobre">
+      <div class="section-heading"><p class="overline">01 / Sobre</p><h2>Tecnologia com<br><span>propósito e cuidado.</span></h2></div>
+      <div class="about-copy">
+        <p>Atuo com suporte técnico e infraestrutura de telecomunicações, com experiência em redes de fibra óptica, configuração de equipamentos, diagnóstico de falhas e atendimento ao usuário.</p>
+        <p>Também estudo desenvolvimento web e Sistemas de Informação. Quero contribuir em times de Suporte de TI, Infraestrutura ou Desenvolvimento, sempre aprendendo e entregando soluções bem pensadas.</p>
+        <div class="education-card">
+          <span class="education-icon" aria-hidden="true">↗</span>
+          <div><strong>Bacharelado em Sistemas de Informação</strong><p>Toledo Prudente · 2024–2027 · 6º semestre em andamento</p></div>
+        </div>
+        <div class="education-card">
+          <span class="education-icon" aria-hidden="true">↗</span>
+          <div><strong>Técnico em Informática para Web</strong><p>Etec Professora Nair Luccas Ribeiro · 2021–2023</p></div>
+        </div>
+      </div>
+    </section>
 
-    <li>Experiência prática como Auxiliar de Instalação e Manutenção de Internet, atuando com instalação e manutenção de fibra óptica, configuração de roteadores, modems e servidores, além de suporte técnico ao cliente.</li>
+    <section class="section" id="experiencia">
+      <div class="section-heading"><p class="overline">02 / Trajetória</p><h2>Experiência<br><span>profissional.</span></h2></div>
+      <div class="experience-list">
+        <article class="experience-item">
+          <div class="experience-date">2025 — 2026</div>
+          <div><h3>Auxiliar de Instalação e Manutenção</h3><p class="company">Alares Internet</p>
+            <ul><li>Instalação e manutenção de redes de fibra óptica em ambientes residenciais e corporativos.</li><li>Configuração e diagnóstico de roteadores, switches e equipamentos de rede.</li><li>Atuação temporária como Analista de Suporte, apoiando técnicos de campo, encaminhando ordens de serviço e acompanhando demandas.</li></ul>
+          </div>
+        </article>
+        <article class="experience-item">
+          <div class="experience-date">2023 — 2024</div>
+          <div><h3>Suporte de Informática</h3><p class="company">Inova Formação</p>
+            <ul><li>Ministração de aulas de informática básica e avançada e preparação de materiais didáticos.</li><li>Manutenção preventiva e corretiva de computadores e softwares.</li><li>Suporte a laboratórios, equipamentos e alunos em ambiente educacional.</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <li>Vivência como Instrutor de Informática, realizando manutenção de hardwares e softwares, organização de conteúdos, apoio a atividades educacionais e atendimento a alunos.</li>
+    <section class="section skills-section" id="habilidades">
+      <div class="section-heading"><p class="overline">03 / Ferramentas</p><h2>O que trago<br><span>para o time.</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-number">01</span><h3>Suporte & redes</h3><p>Atendimento técnico, troubleshooting, fibra óptica, redes de computadores, hardware e software.</p></article>
+        <article class="skill-card"><span class="skill-number">02</span><h3>Desenvolvimento</h3><p>HTML5, CSS3, JavaScript, SQL, APIs REST, Java e C#.</p></article>
+        <article class="skill-card"><span class="skill-number">03</span><h3>Ferramentas</h3><p>Git, GitHub, Office 365, Figma e fundamentos de QA e testes de software.</p></article>
+        <article class="skill-card"><span class="skill-number">04</span><h3>Colaboração</h3><p>Comunicação com clientes e equipes, organização e aprendizado contínuo. Inglês técnico básico.</p></article>
+      </div>
+    </section>
 
-    <li>Conhecimentos avançados no Pacote Office 365, incluindo criação de planilhas, relatórios, análises e gestão de documentos.</li>
+    <section class="section projects-section" id="projetos">
+      <div class="section-heading"><p class="overline">04 / Projetos</p><h2>Ideias que<br><span>viram prática.</span></h2></div>
+      <div class="project-grid">
+        <article class="project-card project-featured">
+          <div class="project-topline"><span>Projeto em destaque</span><span aria-hidden="true">01</span></div>
+          <h3>Sistema Web de Gerenciamento de Restaurante</h3>
+          <p>Aplicação para organizar mesas e pedidos, com foco em usabilidade, responsividade e lógica de negócio.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="text-link" href="https://github.com/DougX13/fogo-e-Mesa" target="_blank" rel="noopener">Explorar projeto no GitHub <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span>Projeto publicado</span><span aria-hidden="true">02</span></div>
+          <h3>TechSolutions</h3>
+          <p>Página institucional criada como exercício de desenvolvimento web.</p>
+          <div class="tag-list"><span>Web</span><span>Projeto acadêmico</span></div>
+          <a class="text-link" href="https://dougx13.github.io/Atividade-avaliativa" target="_blank" rel="noopener">Abrir projeto <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="project-topline"><span>Este site</span><span aria-hidden="true">03</span></div>
+          <h3>Portfólio pessoal</h3>
+          <p>Meu espaço para apresentar experiências, estudos e projetos em andamento.</p>
+          <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a class="text-link" href="https://github.com/DougX13/PORTFOLIO" target="_blank" rel="noopener">Ver código-fonte <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
 
-    <li>Domínio em desenvolvimento web: HTML, CSS, JavaScript e PHP, além de experiência em linguagens como C, C#, Java e Python.</li>
+    <section class="contact-section" id="contato">
+      <div class="contact-inner">
+        <p class="overline">05 / Vamos conversar?</p>
+        <h2>Tem uma oportunidade<br>ou um projeto em mente?</h2>
+        <p class="contact-copy">Estou aberto a conversar sobre suporte de TI, infraestrutura e desenvolvimento web.</p>
+        <a class="button button-primary" href="mailto:douglaspinheirorodrigues3@gmail.com">Enviar um e-mail <span aria-hidden="true">↗</span></a>
+        <div class="contact-details">
+          <a href="mailto:douglaspinheirorodrigues3@gmail.com">douglaspinheirorodrigues3@gmail.com</a>
+          <a href="https://wa.me/5518981644757" target="_blank" rel="noopener">WhatsApp · (18) 98164-4757 <span aria-hidden="true">↗</span></a>
+          <a href="https://www.instagram.com/douglas_pinheiro5/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <li>Prática em design de interface e prototipação utilizando Figma, com conhecimento em UX/UI.</li>
-
-    <li>Noções de banco de dados e SQL, incluindo consultas, manipulação e estruturação de dados.</li>
-
-    <li>Capacitação em Qualidade de Software com curso de QA (Udemy – 2024), abordando testes funcionais, cenários e boas práticas.</li>
-
-    <li>Participação no Programa Potencial Infinito (2023), em parceria com a Walt Disney Company América Latina, ampliando competências comportamentais e profissionais.</li>
-
-    <li>Perfil colaborativo, gosto por novas tecnologias, aprendizado contínuo e capacidade de trabalhar em equipe.</li>
-  </ul>
-</section>
-
-  <!-- Habilidades -->
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Pacote Office 365 (avançado)</li>
-      <li>Hardware & Software — instalação / manutenção</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Linguagem C, Python</li>
-      <li>PHP</li>
-      <li>UX / UI (Figma)</li>
-      <li>Noções de QA (Quality Assurance)</li>
-      <li>Redes e manutenção de internet</li>
-    </ul>
-  </section>
-
-  <!-- Experiências -->
-  <section id="experiencias">
-    <h2>Experiências Profissionais</h2>
-    <div class="job">
-      <h3>Auxiliar de Instalação e Manutenção de Internet – 2025</h3>
-      <p>Instalação/manutenção de redes, atendimento ao cliente, suporte técnico e diagnóstico de falhas de conexão.</p>
-    </div>
-    <div class="job">
-      <h3>Instrutor de Informática – Prefeitura Municipal (Departamento de Limpeza Pública) – 2024</h3>
-      <p>Manutenção de hardwares/softwares, funcionamento de aulas, gestão de documentos e solicitações internas.</p>
-    </div>
-   
-    </div>
-  </section>
-
-  <!-- Projetos / portfólio -->
-  <section id="projetos">
-    <h2>Projetos / Trabalhos</h2>
-    <div class="project">
-      <h3>Projeto Web – Site pessoal / portfólio</h3>
-      <p>Desenvolvimento de páginas web com HTML, CSS e JavaScript.</p>
-    </div>
-    <div class="project">
-      <h3>Projeto UI/UX – App de entregas (conceito)</h3>
-      <p>Roadmap, sitemap e casos de uso para app de entregas de restaurantes.</p>
-
-    </div>
-    <div class="project">
-        <h3>Projeto Sobre a Empresa TechSolutions</h3>
-        <br>
-        <a href="https://dougx13.github.io/Atividade-avaliativa" target="_blank" >Visualizar Projeto</a>
-        <br>
-
-    </div>
-    <!-- adicione mais projetos conforme quiser -->
-  </section>
-
-  <!-- Contato -->
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Email:douglaspinheirorodrigues3@gmail.com</p>
-     <p>Telefone:18981644757</p>
-      <p>Linkedin:www.linkedin.com/in/douglas-pinheiro-rodrigues-8203b1261</p>
-      <p>GitHub:https://github.com/Dougx13</p>
-      <p>Instagram:douglas_pinheiro5</p>
-    <!-- você pode adicionar links para LinkedIn, GitHub etc. -->
-  </section>
-
-  <footer>
-    <p>© 2025 Douglas Pinheiro Rodrigues</p>
-  </footer>
-
+  <footer class="footer"><a class="brand" href="#inicio">DP<span>.</span></a><p>Feito por Douglas Pinheiro Rodrigues · 2026</p><a href="#inicio">Voltar ao topo ↑</a></footer>
 </body>
-<script src="script.js"></script>
-
 </html>
